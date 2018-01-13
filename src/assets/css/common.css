@@ -1,0 +1,59 @@
+a{text-decoration:none}
+ul li{list-style: none;}
+input{font-size:16px;}
+/*头部返回箭头的样式*/
+.head-back {
+  position:absolute;
+  left:0;
+  top:0;
+  width:50px;
+  height:50px;
+}
+.head-back:before{
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 14px;
+  height: 14px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(45deg);
+}
+/*白色返回箭头*/
+.head-back1 {
+  position:absolute;
+  left:0;
+  top:0;
+  width:50px;
+  height:50px;
+}
+.head-back1:before{
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 14px;
+  height: 14px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+}
+/*文字大小样式*/
+.font11 { font-size:11px; }
+.font12 { font-size:12px; }
+.font13 { font-size:13px; }
+.font14 { font-size:14px; }
+.font16 { font-size:16px; }
+.font17 { font-size:17px; }
+.font18 { font-size:18px; }
+.font20 { font-size:20px; }
+.font1_2 { font-size:1.2em; }
+.font0_8 { font-size:0.8em; }
+.font0_6 { font-size:0.6em; }
+/*按钮样式*/
+.btnBlue{background-color:#56BBFF;color:#fff;height:40px;width:90%;margin:0 auto;}
+.btnLine{border:1px solid #56BBFF;color:#56BBFF;background-color:#fff;height:40px;width:90%;margin:0 auto;}
+.btnNone{background-color:#fff;color:#56BBFF;border:none;}
+/*input样式重置*/
+input:focus {outline:none}

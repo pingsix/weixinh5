@@ -1,0 +1,182 @@
+.content {
+  width: 100%;
+
+  padding-top: 12px;
+  .head {
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 17px;
+    color: #363636;
+    position: relative;
+    img {
+      position: absolute;
+      width: 9px;
+      height: 17px;
+      left: 14px;
+      top: 16px;
+    }
+   }
+   .banner {
+    width: 100%;
+    height: 205px;
+    background-color: #4ca9ff;
+    .statement {
+      width: 100%;
+      height: 40px;
+
+      padding: 0px 15px;
+      line-height: 40px;
+      .left {
+        float: left;
+        color: #fff;
+      }
+      .right {
+        float: right;
+        color: #fff;
+      }
+    }
+    .repay {
+      width:26%;
+      height: 70px;
+      margin: 0 auto;
+      .now {
+        display:block;
+        color: #fff;
+        width: 88px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        background-image: url("../img/borderBackground.png") ;
+        background-size: 88px 26px;
+      }
+      .amount {
+        display: block;
+        margin-top: 6px;
+        color: #fff;
+        font-size: 18px;
+        span {
+          font-size: 22px;
+        }
+      }
+    }
+    .nowStatus {
+      width: 100%;
+      height: 95px;
+      position: relative;
+      border-top: 1px solid #77beff;
+     .linear {
+      position: absolute;
+      width: 1px;
+      height: 50px;
+      top: 22px;
+      left: 50%;
+      background-color: #77beff;
+     }
+     .statusLeft {
+      width: 50%;
+      float: left;
+      text-align: center;
+      position: relative;
+       .now {
+        display:block;
+        color: #fff;
+        width: 88px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        background-image: url("../img/borderBackground.png") ;
+        background-size: 88px 26px;
+        position: absolute;
+        top:20px;
+        left: 25%;
+      }
+      .amount {
+        display: block;
+        margin-top: 50px;
+        color: #fff;
+        font-size: 18px;
+        span {
+          font-size: 22px;
+        }
+      }
+     }
+     .statusRight {
+      width: 50%;
+      float: left;
+      position: relative;
+       .now {
+        display:block;
+        color: #fff;
+        width: 88px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        background-image: url("../img/borderBackground.png") ;
+        background-size: 88px 26px;
+        position: absolute;
+        top:20px;
+        left: 46px;
+      }
+      .amount {
+        display: block;
+        margin-top: 50px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+      }
+     }
+    }
+   }
+   .lists {
+    width: 100%;
+    height:450px;
+    background-color: #f8f8f8;
+     li {
+      width: 100%;
+      height: 50px;
+      background-color: #fff;
+      padding-left: 15px;
+        text-align: left;
+       &:first-child{
+        margin-bottom: 15px;
+        border-bottom: 1px #e0e0e0 solid;
+         div {
+          border: none;
+        }
+      }
+      div {
+        width: 100%;
+        height: 50px;
+        display: block;
+        line-height: 50px;
+        font-size: 16px;
+        color: #393939;
+        border-bottom: 1px #e0e0e0 solid;
+        .imgOne {
+          width: 16px;
+          height: 17px;
+          margin-right: 15px;
+        }
+        .imgTwo {
+          width: 7px;
+          height: 14px;
+          float: right;
+          margin-right: 15px;
+          margin-top: 18px;
+        }
+        &.active {
+          color: #56bcff;
+        }
+      }
+      &:last-child {
+        div {
+          border: none;
+        }
+      }
+
+    }
+  }
+}
+

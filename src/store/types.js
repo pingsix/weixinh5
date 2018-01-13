@@ -1,0 +1,12 @@
+export const UPDATE_CURUSERID = 'UPDATE_CURUSERID';
+export const GET_CURUSERID = 'GET_CURUSERID';
+export const ADD_DATA1 = 'ADD_DATA1';
+export const ADD_DATA2 = 'ADD_DATA2';
+export const ADD_RECIPETYPE = 'ADD_RECIPETYPE';
+export const ADD_INFO = 'ADD_INFO';
+export const REMOVE_DATA1 = 'REMOVE_DATA1';
+export const REMOVE_DATA2 = 'REMOVE_DATA2';
+export const SET_DATA1_NUMBER = 'SET_DATA1_NUMBER';
+export const SET_DATA2_NUMBER = 'SET_DATA2_NUMBER';
+export const CLEAR_RECIPE_DATA = 'CLEAR_RECIPE_DATA';
+

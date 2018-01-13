@@ -1,0 +1,17 @@
+{
+  "result": {
+    "data": [
+      {
+        "ipAddress": "",
+        "mailRecipient":"",
+        "projectId":"",
+        "sendLevel":"",
+        "sendType":"",
+        "theSender":"",
+        "wechatRecipient":""
+      }
+    ],
+    "code": "200",
+    "message": "success"
+  }
+}

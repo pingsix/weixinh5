@@ -1,0 +1,142 @@
+.register {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  // z-index: 9999;
+  // background-color: rgba(0,1,0,0.2);
+  // opacity: '0.6';
+  .head {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    color: #393939;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    img {
+      position: absolute;
+      width: 9px;
+      height: 17px;
+      left: 14px;
+      top: 16px;
+    }
+  }
+  .lists {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 15px;
+    border-bottom: 1px solid #e0e0e0;
+   li {
+    position:relative;
+    img{
+      width: 16px;
+      height: 18px;
+      position:absolute;
+      top: 17px;
+      left: 0px;
+    }
+     input {
+      width: 100%;
+      height: 50px;
+      padding-left: 32px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+     .last-child {
+      border: none;
+      }
+      .reminder {
+        width:84px;
+        height:28px;
+        position: absolute;
+        background-image: url("../img/identifyingcode.png");
+        background-size: 84px 28px;
+        top: 13px;
+        right: 13px;
+        color: #65c1ff;
+        line-height: 28px;
+        text-align: center;
+      }
+   }
+  }
+  .buttonRegister {
+    button {
+     width: 85%;
+     height: 40px;
+     margin: 30px 26px;
+     background-color: #56bcff;
+     border-radius: 6px;
+     color: #fff;
+     font-weight: 700;
+     font-size: 16px;
+    }
+  }
+  .protocol {
+    width: 260px;
+    margin: 0 70px;
+    position: relative;
+    img {
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      left: -24px;
+      top: 2px;
+    }
+    .one {
+      color: #b6b6b6;
+    }
+    .two {
+      color: #56bcff;
+    }
+  }
+}
+
+
+
+
+ .modal{
+      display:block;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 1000;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .modal-content{
+      background-image: url("../img/Bombbox.png");
+      background-size: 246px;
+      z-index: 999;
+      line-height: 112px;
+      text-align: center;
+      position: absolute;
+      top: 250px;
+      left: 56px;
+      width: 246px;
+      height: 112px;
+      -webkit-animation: zoom 0.6s;
+      animation: zoom 0.6s;
+      .succeed {
+        img {
+          width: 17px;
+          height: 17px;
+        }
+      }
+      .cross {
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: -26px;
+        right: -10px;
+      }
+    }
+    @-webkit-keyframes zoom{
+      from {-webkit-transform: scale(0)}
+      to {-webkit-transform: scale(1)}
+    }
+    @keyframes zoom{
+      from {transform: scale(0)}
+      to {transform: scale(1)}
+    }
+
